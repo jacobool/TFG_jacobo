@@ -6,3 +6,4 @@
 /memoria
 models/*.pkl
 *.pkl
+.claude/
