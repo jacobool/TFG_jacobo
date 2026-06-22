@@ -46,11 +46,6 @@ source venv_geometry/Scripts/activate   # Git Bash / WSL
 pip install -r requirements.txt
 ```
 
-> **Nota:** `requirements.txt` está codificado en UTF-16. Si `pip` da error, conviértelo primero:
-> ```bash
-> iconv -f UTF-16 -t UTF-8 requirements.txt > req_utf8.txt && mv req_utf8.txt requirements.txt
-> ```
-
 ## Uso rápido
 
 Todos los scripts se ejecutan desde la **raíz del proyecto**. Asegúrate de que Geometry Dash esté abierto y visible antes de lanzar cualquier script.
