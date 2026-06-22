@@ -1,9 +1,10 @@
-/modelos_guardados
-/venv_geometry
-/__pycache__
+venv_geometry/
+__pycache__/
 *.pyc
-/CLAUDE.md
-/memoria
-models/*.pkl
 *.pkl
+
+/CLAUDE.md
 .claude/
+
+modelos_guardados/
+memoria/
