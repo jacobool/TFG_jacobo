@@ -122,7 +122,10 @@ class GDEnv(gym.Env):
         self.win = self.windows[0]
         self.hwnd = self.win._hWnd
         self.win.activate()
-        self.attempt = 1
+        # attempt arranca en 0 porque reset() incrementa ANTES de
+        # imprimir; asi el primer reset imprime "Episodio 1 iniciado"
+        # y el conteo en consola coincide con las partidas reales.
+        self.attempt = 0
         self.last_action_time = time.perf_counter()
         self._no_green_count = 0 
         self._ep_frames = 0

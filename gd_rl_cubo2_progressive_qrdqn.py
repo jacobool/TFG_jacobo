@@ -42,9 +42,9 @@ RUN_NAME    = "qrdqn_progressive_cubo2"
 
 # Profesor QR-DQN del cubo 1 (mismo que usan scratch, fine-tune, distill,
 # replay y EWC sobre QR-DQN).
-MODELO_CUBO1 = "modelos_guardados/gd_qrdqn_440000_steps.zip"
+MODELO_CUBO1 = "models/gd_qrdqn_440000_steps.zip"
 
-TOTAL_STEPS = 600_000
+TOTAL_STEPS = 400_000   # igual que PNN-DQN, para comparacion justa
 SAVE_FREQ   = 25_000
 
 # Hiperparametros alineados con la version DQN para que la unica

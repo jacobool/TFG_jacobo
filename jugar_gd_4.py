@@ -158,7 +158,7 @@ if __name__ == "__main__":
     # 2. Cargar el modelo final. Autodetectamos QRDQN vs DQN por el nombre
     #    del fichero: si contiene 'qrdqn' usamos sb3_contrib.QRDQN, si no
     #    asumimos DQN clasico (modelos del cubo 1 antiguos, EWC, PNN).
-    MODEL_PATH = "modelos_guardados/gd_qrdqn_ewc_cubo2_FINAL.zip"  # <-- Cambia esto por tu modelo final
+    MODEL_PATH = "models/gd_qrdqn_440000_steps"  # <-- Cambia esto por tu modelo final
     is_qrdqn = "qrdqn" in MODEL_PATH.lower()
     AlgoCls = QRDQN if is_qrdqn else DQN
 

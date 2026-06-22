@@ -1,0 +1,2 @@
+n,n_validos,n_outliers,mean_time,std_time,max_time,mean_reward,survival_rate,survival_thr_s,model
+10,10,0,8.218844110053032,2.4322734546436986,10.640542300185189,4.926000165566802,0.0,22.0,pnn_qrdqn

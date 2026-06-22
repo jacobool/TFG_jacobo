@@ -217,8 +217,8 @@ class GDEnvDirector(gym.Env):
 if __name__ == "__main__":
     print("⏳ Iniciando el Sistema Orquestador en modo SILENCIOSO...")
     
-    RUTA_MODELO_CUBO = "modelos_guardados/gd_qrdqn_replay_cubo2_600k_FINAL" # <-- Cambia esto
-    RUTA_MODELO_NAVE = "modelos_guardados/nave_qrdqn_FINAL" # <-- Cambia esto
+    RUTA_MODELO_CUBO = "models/gd_qrdqn_replay_cubo2_600k_FINAL" # <-- Cambia esto
+    RUTA_MODELO_NAVE = "models/nave_qrdqn_FINAL" # <-- Cambia esto
     
     try:
         model_cubo = QRDQN.load(RUTA_MODELO_CUBO)
