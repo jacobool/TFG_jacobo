@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/6659f83e-a25a-4fb2-87b0-ec66ba334c45
+
 # Geometry Dash RL — Agente de Reinforcement Learning
 
 Agente de aprendizaje por refuerzo que juega a **Geometry Dash** de forma autónoma. Observa el juego en tiempo real mediante visión por computador, toma decisiones con redes neuronales profundas y controla el teclado para esquivar obstáculos.
